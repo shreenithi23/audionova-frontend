@@ -13,7 +13,7 @@ const Callback = () => {
       return;
     }
 
-    const backendUrl = "http://localhost:3000/callback";
+    const backendUrl = "http://localhost:9090/callback";
 
     fetch(`${backendUrl}?code=${code}`)
       .then((response) => {
